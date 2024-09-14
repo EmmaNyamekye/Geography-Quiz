@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="quizPage.css">
+    <script src="./quizPage.js" defer></script>
+    <title>Quiz Page</title>
+</head>
+
+<body>
+    <div class="quizBox">
+        <h1>Geography Quiz</h1>
+            <h2 id="questionSection">question</h2>
+            <p id="help">help</p>
+                <form id="answersSection">
+                    <div>
+                        <input type="radio" name="answer" value="0">
+                        <label id="a">a</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="answer" value="1">
+                        <label id="b">b</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="answer" value="2">
+                        <label id="c">c</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="answer" value="3">
+                        <label id="d">c</label>
+                    </div>
+                </form>
+            <p id="page"><span id="count">1</span>/5</p>        
+        <p><button id="nextButton">Next</button></p>
+    </div>
+</body>
+
+</html>

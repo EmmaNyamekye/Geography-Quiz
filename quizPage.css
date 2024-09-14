@@ -1,0 +1,87 @@
+html {
+    font-family: 'Lato', 'Open Sans', 'Roboto', sans-serif;
+    background: #bbdd5d;
+    color: #333333;
+    font-size: 62.5%;
+}
+
+.quizBox {
+    background: #ffffff;
+    position: relative;
+    width: 40%;
+    margin: 10% auto 0;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+#help {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    padding: 2%;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    border: solid #ffffff 1px;
+}
+
+#nextButton {
+    visibility: hidden;
+}
+
+h1,
+h2 {
+    color: #bbdd5d;
+}
+
+#answersSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#answersSection>div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+}
+
+#answersSection p {
+    margin-left: 2%;
+}
+
+#nextButton {
+    width: 30%;
+    padding: 2%;
+    background-color: #bbdd5d;
+    color: #ffffff;
+    font-size: 100%;
+    border: none;
+    margin-left: 70%;
+    border-radius: 10px;
+}
+
+input,
+button{
+    cursor: pointer;
+}
+
+#answersSection div:has(input[type="radio"]:checked) { 
+    border: 2px solid #bbdd5d;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 3.2em;
+}
+
+h2 {
+    font-size: 2.4em;
+}
+
+p, label {
+    font-size: 1.6em;
+}
+
+label {
+    padding: 1rem;
+}

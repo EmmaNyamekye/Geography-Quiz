@@ -1,0 +1,22 @@
+html {
+    font-family: 'Lato', 'Open Sans', 'Roboto', sans-serif;
+    font-size: 62.5%;
+    color: #333333;
+}
+
+h1 {
+    font-size: 3em;
+    color: #8bdcf5;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+#results{
+    margin: 2%;
+}
